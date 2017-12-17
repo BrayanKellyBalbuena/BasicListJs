@@ -1,0 +1,14 @@
+#tblDatos {
+    margin:3 auto;
+    width: 60%;
+    border: solid 3px cyan;
+    
+   }#tblDatos td {
+    border: solid 2px cyan;
+   }
+   
+   .borrar
+   {
+     color: red;
+     background: pink; 
+   }

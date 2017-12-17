@@ -1,0 +1,53 @@
+<html>
+	<head>  
+		<link rel="stylesheet" href="styles.css">
+		<script src="script.js"></script>	
+	</head>	
+	<body onload = "userNs.cargarDatos()"> 
+		<table id = 'tblDatos'>
+			<thead>
+				<tr>
+					<th>Nombre</th>
+					<th>Apellido</th>
+					<th>Salario</th>
+					<th>Cedula</th>
+					<th>Fecha de Nac.</th>
+					<th>Color favorito</th>
+					<th>Edad</th>
+					<th>Signo</th>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" id ='txtNombre'></input>
+					</td>
+					<td>
+						<input type="text" id ='txtApellido'></input>
+					</td>
+					<td>
+						<input type="text" id ='txtSalario'></input>
+					</td>
+					<td>
+						<input type="text" id ='txtCedula'></input>
+					</td>
+					<td>
+						<input type="text" id ='txtFechaNac'></input>
+					</td>
+					<td>
+						<input type="text" id ='txtColorFav'></input>
+					</td>
+					<td>
+					</td>
+					<td>
+					</td>
+					<td>
+						<button onclick = "userNs.agregarEmpleado();" type = 'button'> Agregar </button>
+					</td>
+				</tr>
+			</thead>
+			<tbody id = "tbDatos" >
+			
+			</tbody>
+		</table>
+	
+	</body>
+</html>
